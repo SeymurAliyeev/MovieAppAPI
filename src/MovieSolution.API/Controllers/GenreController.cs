@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using MovieSolution.Business.DTOs.GenreDTOs;
 using MovieSolution.Business.Services.Interfaces;
 using MovieSolution.Core.Entities;
 
@@ -18,9 +19,9 @@ public class GenreController : ControllerBase
 
 
     [HttpPost ("")]
-    public async Task<IActionResult> Create(Genre genre)
+    public async Task<IActionResult> Create(GenreCreateDto dto)
     {
-        return Ok(await _genreServices.CreateAsync(genre));
+        return Ok(await _genreServices.CreateAsync(dto));
     }
 
     [HttpGet("")]

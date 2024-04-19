@@ -1,4 +1,7 @@
-﻿using MovieSolution.Business.Services.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using MovieSolution.Business.CustomExceptions.CommonExceptions;
+using MovieSolution.Business.DTOs.GenreDTOs;
+using MovieSolution.Business.Services.Interfaces;
 using MovieSolution.Core.Entities;
 using MovieSolution.Core.Repositories;
 using MovieSolution.Data.Repositories;
@@ -13,8 +16,20 @@ namespace MovieSolution.Business.Services.Implementations
         {
             _genreRepository = genreRepositories;
         }
-        public async Task<Genre> CreateAsync(Genre genre)
+        public async Task<Genre> CreateAsync(GenreCreateDto dto)
         {
+            if(await _genreRepository.Table.AnyAsync(g => g.Name == dto.Name))
+            {
+                throw new AlreadyExistException("Genre name is already exist!");
+            }
+
+            Genre genre = new Genre()
+            {
+                Name = dto.Name,
+                IsDeleted = false,
+                CreatedDate = DateTime.UtcNow,
+                UpdatedDate = DateTime.UtcNow
+            };
             await _genreRepository.InsertAsync(genre);
             await _genreRepository.CommitAsync();
 

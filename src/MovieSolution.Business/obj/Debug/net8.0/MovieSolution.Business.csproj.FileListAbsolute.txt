@@ -17,3 +17,4 @@ C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Business\obj\Debug\net8.0\
 C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Business\obj\Debug\net8.0\ref\MovieSolution.Business.dll
 C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Business\bin\Debug\net8.0\MovieSolution.Business.runtimeconfig.json
 C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Business\obj\Debug\net8.0\MovieSolution.Business.genruntimeconfig.cache
+C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Business\obj\Debug\net8.0\MovieSolution.Business.sourcelink.json

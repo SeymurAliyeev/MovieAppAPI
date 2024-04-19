@@ -9,5 +9,6 @@ public static class ServiceRegistration
     public static void AddRepositories(this IServiceCollection services)
     {
         services.AddScoped<IGenreRepositories, GenreRepository>();
+        services.AddScoped<IMovieRepositories, MovieRepository>();
     }
 }

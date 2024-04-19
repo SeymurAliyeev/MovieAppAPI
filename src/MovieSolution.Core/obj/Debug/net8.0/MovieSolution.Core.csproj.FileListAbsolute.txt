@@ -12,3 +12,4 @@ C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Core\obj\Debug\net8.0\ref\
 C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Core\bin\Debug\net8.0\MovieSolution.Core.runtimeconfig.json
 C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Core\obj\Debug\net8.0\MovieSolution.Core.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Core\obj\Debug\net8.0\MovieSolution.Core.genruntimeconfig.cache
+C:\Users\user\Desktop\MovieSolution\src\MovieSolution.Core\obj\Debug\net8.0\MovieSolution.Core.sourcelink.json

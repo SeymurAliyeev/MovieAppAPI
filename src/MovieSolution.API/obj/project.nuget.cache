@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1wzYCzEgw22+I5a9/RqQe7+HZI9b69nXATWcGSlM6DuDwtNpWuLdwpy11eCjwVUiNrg2lGFQ9akCR4Wj6D8WCQ==",
+  "dgSpecHash": "+l2mcd5Tyzo+AQr3DpboAzAgX4ueZDbvNim70DZ7Kj+V8NfIugq7DVJtvKwvNIQiIM1nXanMwmtT7lmLHqYImA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\MovieSolution\\src\\MovieSolution.API\\MovieSolution.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MovieSolution.Core.Entities;
 
-namespace MovieSolution.Core.Repositories
+namespace MovieSolution.Core.Repositories;
+
+public interface IMovieRepositories : IGenericRepositories<Movie>
 {
-    internal interface IMovieRepositories
-    {
-    }
 }

@@ -2,13 +2,19 @@ using MovieSolution.Data;
 using MovieSolution.Business;
 using MovieSolution.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation.AspNetCore;
+using MovieSolution.Business.DTOs.MovieDTOs;
+using MovieSolution.Business.DTOValidators.MovieDTOValidators;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(m =>
+{
+    m.RegisterValidatorsFromAssembly(typeof(MovieCreateDtoValidator).Assembly);
+});
 builder.Services.AddRepositories();
 builder.Services.AddServices();
 

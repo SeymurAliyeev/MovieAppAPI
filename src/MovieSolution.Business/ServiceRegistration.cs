@@ -9,6 +9,7 @@ namespace MovieSolution.Business
         public static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<IGenreServices, GenreService>();
+            services.AddScoped<IMovieServices, MovieService>();
         }
     }
 }
